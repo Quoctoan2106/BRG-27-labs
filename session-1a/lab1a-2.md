@@ -93,7 +93,12 @@ ls -lah
 rm myfile_renamed.txt
 ls
 ```
-📸 *[Insert screenshot: ls -lah output showing files]*
+![Part 2 - cp myfile.txt myfile_backup.txt;
+mv myfile_backup.txt myfile_renamed.txt;
+ls -lah;
+rm myfile_renamed.txt ](images/Screenshot%202026-04-01%20221503.png)
+![Part 2 - ls ](Screenshot%202026-04-01%20221516.png)
+
 
 ---
 
@@ -140,8 +145,7 @@ ip a
 ```bash
 ping 8.8.8.8
 ```
-![Part 4 - ping 8.8.8.8](images/images/Screenshot%202026-04-01%20204439.png
-)
+![Part 4 - ping 8.8.8.8](images/images/Screenshot%202026-04-01%20204439.png)
 
 ---
 
