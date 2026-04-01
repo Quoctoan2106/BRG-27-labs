@@ -28,18 +28,14 @@
 # Navigated directories using Files (File Manager)
 # Home → Documents → Downloads
 ```
-📸 *[Insert screenshot: File Manager showing Downloads folder]*
-
+![Part 1 - File Manager navigating Downloads folder](https://raw.githubusercontent.com/Quoctoan2106/BRG-27-labs/main/session-1a/images/Screenshot%202026-04-01%20200347.png)
 ---
 
 ### Step 4 – Software Installation via Ubuntu Software Centre
 ```bash
 # Searched for and installed VLC via Ubuntu Software Centre (App Center)
 ```
-📸 *[Insert screenshot: App Center showing VLC installing]*
-
----
-
+![Part 1 - App Center installing VLC](images/Screenshot%202026-04-01%20200448.png)
 ### Step 5 – Terminal & File Manager Side-by-Side
 ```bash
 ls
