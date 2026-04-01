@@ -62,11 +62,9 @@ ls -alt
 ls -lah
 ```
 ![Part 2 - ls commands output](images/Screenshot%202026-04-01%20200755.png)
-![Part 2 - ls -la output](images/Screenshot%202026-04-01%20200755.png)
-
-![Part 2 - ls -alt output](images/Screenshot%202026-04-01%20200808.png)
-
-![Part 2 - ls -lah output](images/Screenshot%202026-04-01%20200848.png)
+![Part 2 - ls -la output](images/Screenshot%202026-04-01%20200808.png)
+![Part 2 - ls -alt output](images/Screenshot%202026-04-01%20200848.png)
+![Part 2 - lah](images/Screenshot%202026-04-01%20200857.png)
 ---
 
 ### Step 3 – File Creation & Editing
