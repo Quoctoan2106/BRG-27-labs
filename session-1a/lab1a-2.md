@@ -20,8 +20,7 @@
 ```bash
 # Opened LibreOffice Writer and typed a document
 ```
-📸 *[Insert screenshot: LibreOffice Writer with text "Hello, my full name is Tran Quoc Toan"]*
-
+![Part 1 - LibreOffice Writer with typed text](https://raw.githubusercontent.com/Quoctoan2106/BRG-27-labs/main/session-1a/images/Screenshot%202026-04-01%20200122.png)
 ---
 
 ### Step 3 – File Manager Navigation
