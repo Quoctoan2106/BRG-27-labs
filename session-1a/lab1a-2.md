@@ -40,8 +40,7 @@
 ```bash
 ls
 ```
-📸 *[Insert screenshot: Terminal and File Manager side-by-side]*
-
+![Part 1 - Terminal and File Manager side-by-side](images/Screenshot%202026-04-01%20200552.png)
 ---
 
 ## Part 2: CLI Basics & File Operations
