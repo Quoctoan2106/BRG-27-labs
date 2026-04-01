@@ -74,9 +74,9 @@ nano myfile.txt
 cat myfile.txt
 less myfile.txt
 ```
-
+![Part 2 - touch ](images/Screenshot%202026-04-01%20201147.png)
+![Part 2 - touch ](images/Screenshot%202026-04-01%20200955.png)
 ![Part 2 - cat and less ](images/Screenshot%202026-04-01%20201204.png)
-
 
 ---
 
@@ -98,30 +98,25 @@ uname -a
 lsb_release -a
 hostnamectl
 ```
-📸 *[Insert screenshot: output of system info commands]*
+![Part 2 - uname -a
+lsb_release -a
+hostnamectl ](images/Screenshot%202026-04-01%20201931.png)
 
 ---
 
 ## Part 3: Super User & Permissions
 
-### Step 1 – whoami & sudo whoami
+
 ```bash
 whoami
 sudo whoami
-```
-📸 *[Insert screenshot: whoami showing ttoan2796, sudo whoami showing root]*
-
----
-
-### Step 2 – Adding a User (with and without sudo)
-```bash
 # Without sudo – permission denied
 adduser testuser
 
 # With sudo – success
 sudo adduser testuser
 ```
-📸 *[Insert screenshot: adduser failing, then sudo adduser succeeding]*
+![Part 3](images/Screenshot%202026-04-01%20203505.png)
 
 ---
 
@@ -131,7 +126,8 @@ sudo adduser testuser
 ```bash
 ip a
 ```
-📸 *[Insert screenshot: ip a output]*
+![Part 4 -  ip a](images/Screenshot%202026-04-01%20204323.png
+)
 
 ---
 
