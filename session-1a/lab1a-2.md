@@ -50,8 +50,8 @@ ls
 ps -e
 top
 ```
-📸 *[Insert screenshot: output of ps -e and top]*
-
+![Part 2 - ps -e process list output](images/Screenshot%202026-04-01%20200705.png)
+![Part 2 - top process monitor output](images/Screenshot%202026-04-01%20200727.png)
 ---
 
 ### Step 2 – File Listing
