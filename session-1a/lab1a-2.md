@@ -21,6 +21,7 @@
 # Opened LibreOffice Writer and typed a document
 ```
 ![Part 1 - LibreOffice Writer with typed text](https://raw.githubusercontent.com/Quoctoan2106/BRG-27-labs/main/session-1a/images/Screenshot%202026-04-01%20200122.png)
+
 ---
 
 ### Step 3 – File Manager Navigation
@@ -29,6 +30,7 @@
 # Home → Documents → Downloads
 ```
 ![Part 1 - File Manager navigating Downloads folder](https://raw.githubusercontent.com/Quoctoan2106/BRG-27-labs/main/session-1a/images/Screenshot%202026-04-01%20200347.png)
+
 ---
 
 ### Step 4 – Software Installation via Ubuntu Software Centre
@@ -41,6 +43,7 @@
 ls
 ```
 ![Part 1 - Terminal and File Manager side-by-side](images/Screenshot%202026-04-01%20200552.png)
+
 ---
 
 ## Part 2: CLI Basics & File Operations
@@ -52,6 +55,7 @@ top
 ```
 ![Part 2 - ps -e process list output](images/Screenshot%202026-04-01%20200705.png)
 ![Part 2 - top process monitor output](images/Screenshot%202026-04-01%20200727.png)
+
 ---
 
 ### Step 2 – File Listing
@@ -65,6 +69,7 @@ ls -lah
 ![Part 2 - ls -la output](images/Screenshot%202026-04-01%20200808.png)
 ![Part 2 - ls -alt output](images/Screenshot%202026-04-01%20200848.png)
 ![Part 2 - lah](images/Screenshot%202026-04-01%20200857.png)
+
 ---
 
 ### Step 3 – File Creation & Editing
@@ -146,6 +151,7 @@ ping 8.8.8.8
 ```
 ![Part 4 - Settings → Network](images/Screenshot%202026-04-01%20204534.png
 )
+
 ---
 
 ### Step 4 – Edit /etc/hosts
@@ -153,7 +159,9 @@ ping 8.8.8.8
 sudo nano /etc/hosts
 # Added: 8.8.8.8    GoogleEpicDNS
 ```
-![Part 4 - sudo nano /etc/hosts](images/Screenshot%202026-04-01%20204643.png)
+![Part 4 - sudo nano /etc/hosts](images/Screenshot%202026-04-01%20204843.png
+)
+![Part 4 - sudo nano /etc/hosts](images/Screenshot%202026-04-01%20204819.png)
 
 ---
 
@@ -163,6 +171,7 @@ ping GoogleEpicDNS
 ```
 ![Part 4 - ping GoogleEpicDNS](images/Screenshot%202026-04-01%20204910.png
 )
+
 ---
 
 ### Step 6 – DNS Lookup
@@ -175,6 +184,7 @@ whois google.com
 )
 ![Part 4 - whois google.com](images/Screenshot%202026-04-01%20205044.png
 )
+
 ---
 
 ### Step 7 – Public vs Private IP
@@ -196,8 +206,9 @@ lsusb
 lspci
 less /proc/cpuinfo
 ```
-📸 *[Insert screenshot: lsusb and lspci output]*  
-📸 *[Insert screenshot: less /proc/cpuinfo]*
+![Part 5 - lsusb lspci](images/Screenshot%202026-04-01%20205426.png)
+![Part 5 - less /proc/cpuinfo](images/Screenshot%202026-04-01%20205442.png
+)
 
 ---
 
@@ -205,7 +216,7 @@ less /proc/cpuinfo
 ```bash
 # Settings → About
 ```
-📸 *[Insert screenshot: Settings → About showing Ubuntu 24.04.4 LTS, AMD Ryzen 9 8945HS, 3.8 GiB RAM]*
+![Part 5 - Settings → About](images/Screenshot%202026-04-01%20205657.png)
 
 ---
 
@@ -217,7 +228,11 @@ cat output_of_lsusb
 rm output_of_lsusb
 ls
 ```
-📸 *[Insert screenshot: output redirection steps]*
+![Part 5 - lsusb > output_of_lsusb](images/Screenshot%202026-04-01%20205901.png)
+![Part 5 - less output_of_lsusb](images/Screenshot%202026-04-01%20205925.png)
+![Part 5 - cat output_of_lsusb; rm output_of_lsusb; ls](images/Screenshot%202026-04-01%20210005.png)
+
+
 
 ---
 
@@ -227,7 +242,7 @@ ls
 ```bash
 # Accessed Google Docs at https://docs.google.com via Firefox
 ```
-📸 *[Insert screenshot: Google Docs open in Firefox]*
+![Part 6 - Accessed Google Docs at https://docs.google.com via Firefox](images/Screenshot%202026-04-01%20210551.png)
 
 ---
 
@@ -237,7 +252,10 @@ ls
 cd ~/Downloads
 sudo dpkg -i <filename>.deb
 ```
-📸 *[Insert screenshot: .deb installation]*
+![Part 6 - Downloaded .deb file from browser](images/Screenshot%202026-04-01%20224850.png)
+
+![Part 6 - cd ~/Downloads; sudo dpkg -i <filename>.deb](images/Screenshot%202026-04-01%20210903.png)
+
 
 ---
 
@@ -246,8 +264,12 @@ sudo dpkg -i <filename>.deb
 sudo apt update
 sudo apt upgrade
 sudo apt install vlc
+
+
 ```
-📸 *[Insert screenshot: apt install output]*
+![Part 6 - sudo apt update; sudo apt upgrade](images/Screenshot%202026-04-01%20211010.png)
+
+![Part 6 - sudo apt install vlc](images/Screenshot%202026-04-01%20211033.png)
 
 ---
 
