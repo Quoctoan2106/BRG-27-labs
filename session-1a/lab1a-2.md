@@ -74,8 +74,9 @@ nano myfile.txt
 cat myfile.txt
 less myfile.txt
 ```
-📸 *[Insert screenshot: nano editor open with content]*  
-📸 *[Insert screenshot: cat output]*
+
+![Part 2 - cat and less ](images/Screenshot%202026-04-01%20201204.png)
+
 
 ---
 
