@@ -277,8 +277,20 @@ sudo apt install vlc
 
 ---
 
-## Reflection
+## Reflection Questions
 
-Using the Ubuntu GUI felt intuitive for basic tasks like browsing and document editing. However, the CLI gave much greater control and insight into the system. Commands like `ls -la`, `ip a`, and `uname -a` revealed information not easily found through the GUI. 
+### Which file editors are best for remote access and why?
+`nano` and `vim` are best for remote access because they run entirely in the terminal without requiring a graphical interface. When connecting to a remote server via SSH, there is no GUI available, making terminal-based editors essential. `nano` is simpler and more beginner-friendly, while `vim` is more powerful for experienced users.
 
-For software installation, the three methods each have trade-offs: SaaS requires no installation but needs internet; `.deb` binaries give more control but need manual updates; `apt` is the most efficient for Linux-native software as it handles dependencies automatically. As a future IT professional, I would prefer `apt` for server environments and SaaS for collaboration tools.
+### Compare software installation methods: SaaS vs binaries vs repos vs source
+- **SaaS**: Accessed via browser, no installation needed, always up to date, but requires internet and has limited offline use.
+- **Binaries (.deb)**: Quick to install, works offline, but must be manually updated and may have dependency issues.
+- **Repositories (apt)**: Easiest method — handles dependencies automatically, updates managed by system, but limited to packages available in the repo.
+- **Source compilation**: Most flexible and customisable, but complex, time-consuming, and requires build tools.
+
+### What are pros/cons of each method from user and developer perspectives?
+- **User**: SaaS and repos are easiest to use. Binaries are straightforward. Source compilation is too complex for most users.
+- **Developer**: Source gives full control over configuration and optimisation. Repos ensure stable, tested versions. Binaries allow custom packaging. SaaS removes infrastructure burden entirely.
+
+### How did using CLI improve your understanding of Linux?
+Using the CLI gave me direct insight into how Linux works at a system level. Commands like `ls -la`, `ip a`, `uname -a`, and `ps -e` revealed system information that is hidden in the GUI. Managing files, users, and network settings through the terminal made me more aware of the underlying structure of the operating system and built confidence for server administration tasks.
