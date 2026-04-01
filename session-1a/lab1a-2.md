@@ -12,7 +12,7 @@
 ```bash
 # Opened Firefox and navigated to YouTube to verify internet connectivity
 ```
-![Part 1 - Firefox opened with YouTube](images/Screenshot%2026-04-01$195819.png)
+![Part 1 - Firefox opened with YouTube](images/Screenshot%202026-04-01%20195819.png)
 
 ---
 
