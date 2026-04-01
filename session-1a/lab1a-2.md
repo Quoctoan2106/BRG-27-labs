@@ -135,7 +135,8 @@ ip a
 ```bash
 ping 8.8.8.8
 ```
-📸 *[Insert screenshot: ping output]*
+![Part 4 - ping 8.8.8.8](images/images/Screenshot%202026-04-01%20204439.png
+)
 
 ---
 
@@ -143,8 +144,8 @@ ping 8.8.8.8
 ```bash
 # Settings → Network
 ```
-📸 *[Insert screenshot: Ubuntu Network Settings window]*
-
+![Part 4 - Settings → Network](images/Screenshot%202026-04-01%20204534.png
+)
 ---
 
 ### Step 4 – Edit /etc/hosts
@@ -152,7 +153,7 @@ ping 8.8.8.8
 sudo nano /etc/hosts
 # Added: 8.8.8.8    GoogleEpicDNS
 ```
-📸 *[Insert screenshot: nano /etc/hosts with GoogleEpicDNS entry]*
+![Part 4 - sudo nano /etc/hosts](images/Screenshot%202026-04-01%20204643.png)
 
 ---
 
@@ -160,8 +161,8 @@ sudo nano /etc/hosts
 ```bash
 ping GoogleEpicDNS
 ```
-📸 *[Insert screenshot: successful ping to GoogleEpicDNS]*
-
+![Part 4 - ping GoogleEpicDNS](images/Screenshot%202026-04-01%20204910.png
+)
 ---
 
 ### Step 6 – DNS Lookup
@@ -169,8 +170,11 @@ ping GoogleEpicDNS
 nslookup google.com
 whois google.com
 ```
-📸 *[Insert screenshot: nslookup and whois output]*
 
+![Part 4 - nslookup google.com](images/Screenshot%202026-04-01%20204944.png
+)
+![Part 4 - whois google.com](images/Screenshot%202026-04-01%20205044.png
+)
 ---
 
 ### Step 7 – Public vs Private IP
@@ -178,9 +182,8 @@ whois google.com
 ip a
 # Compared with https://whatismyipaddress.com/
 ```
-📸 *[Insert screenshot: ip a output]*  
-📸 *[Insert screenshot: whatismyipaddress.com result]*
-
+![Part 4 - ip a](images/Screenshot%202026-04-01%20205134.png)
+![Part 4 - Compared with https://whatismyipaddress.com/](images/Screenshot%202026-04-01%20205216.png)
 **Reflection:** The private IP (shown by `ip a`) is the address assigned within the local network by the router (e.g. 192.168.x.x). The public IP (shown by whatismyipaddress.com) is the address visible to the internet, shared by all devices on the same network.
 
 ---
