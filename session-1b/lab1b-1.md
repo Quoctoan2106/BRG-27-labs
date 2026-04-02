@@ -45,7 +45,6 @@ nmap 127.0.0.1
 ![](images/Screenshot%202026-04-02%20191910.png)
 ![](images/Screenshot%202026-04-02%20191921.png)
 ![](images/Screenshot%202026-04-02%20192004.png)
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20192031.png
 ![](images/Screenshot%202026-04-02%20192031.png)
 ![](images/Screenshot%202026-04-02%20192217.png)
 ![](images/Screenshot%202026-04-02%20192225.png)
