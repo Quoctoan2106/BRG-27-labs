@@ -58,8 +58,8 @@ sudo ufw enable
 sudo ufw allow 80
 sudo ufw status verbose
 ```
-![](images/Screenshot%202026-04-02%20192318.png)
-![](images/Screenshot%202026-04-02%20192454.png)
+![](images/Screenshot%202026-04-02%20205008.png)
+![](images/Screenshot%202026-04-02%20204845.png)
 
 ---
 
