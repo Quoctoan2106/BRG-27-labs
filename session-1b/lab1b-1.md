@@ -9,9 +9,6 @@ sudo systemctl status apache2
 ```
 ![](images/Screenshot%202026-04-02%20182520.png)
 ![](images/Screenshot%202026-04-02%20182752.png)
-![Part 1 - Firefox opened with YouTube](images/Screenshot%202026-04-02%20182752.png)
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20182520.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20182752.png
 
 ---
 
@@ -20,8 +17,9 @@ https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screensh
 sudo nano /var/www/html/index.html
 
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20191520.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20191338.png
+![](images/Screenshot%202026-04-02%20191520.png)
+
+![](images/Screenshot%202026-04-02%20191338.png)
 
 
 ---
@@ -30,64 +28,63 @@ https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screensh
 ```bash
 ip a
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20191650.png
+![](images/Screenshot%202026-04-02%20191650.png)
 
 ---
 
-## Deliverable 4 – Nmap Port Scan Results
+## Nmap Port Scan Results
 ```bash
 sudo apt install nmap -y
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20191910.png
 nmap 127.0.0.1
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20191921.png
 sudo apt remove apache2 -y
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20192004.png
 nmap 127.0.0.1
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20192031.png
 sudo apt install apache2 -y
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20192217.png
 nmap 127.0.0.1
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20192225.png
 
 ```
+![](images/Screenshot%202026-04-02%20191910.png)
+![](images/Screenshot%202026-04-02%20191921.png)
+![](images/Screenshot%202026-04-02%20192004.png)
+![](images/Screenshot%202026-04-02%20192031.png)
+![](images/Screenshot%202026-04-02%20192217.png)
+![](images/Screenshot%202026-04-02%20192225.png)
 
 ---
 
-## Deliverable 5 – Firewall (UFW) Status and Rules
+## Firewall (UFW) Status and Rules
 ```bash
 sudo ufw status verbose
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20192318.png
 sudo ufw enable
 sudo ufw allow 80
 sudo ufw status verbose
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20192454.png
+![](images/Screenshot%202026-04-02%20192318.png)
+![](images/Screenshot%202026-04-02%20192454.png)
 
 ---
 
-## Deliverable 6 – SSH Enabled and Tested
+## SSH Enabled and Tested
 ```bash
 sudo apt install openssh-server -y
 sudo systemctl status ssh
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20192607.png
 ssh ttoan2796@127.0.0.1
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20192648.png
 
 ```
-
+![](images/Screenshot%202026-04-02%20192607.png)
+![](images/Screenshot%202026-04-02%20192648.png)
 
 ---
 
-## Deliverable 7 – New User Created and Verified
+## New User Created and Verified
 ```bash
 sudo adduser newuser
 cat /etc/passwd | grep newuser
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20192839.png
+![](images/Screenshot%202026-04-02%20192839.png)
 
 ---
 
-## Deliverable 8 – Compression and Decompression
+## Compression and Decompression
 ```bash
 mkdir books
 cd books
@@ -101,52 +98,54 @@ bunzip2 books.tar.bz2
 tar -xvf books.tar
 ls -la
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20193113.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20193153.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20193326.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20193335.png
+![](images/Screenshot%202026-04-02%20193113.png)
+![](images/Screenshot%202026-04-02%20193153.png)
+![](images/Screenshot%202026-04-02%20193326.png)
+![](images/Screenshot%202026-04-02%20193335.png)
 
 ---
 
-## Deliverable 9 – SCP File Transfer
+## SCP File Transfer
 ```bash
 touch testfile.txt
 scp testfile.txt ttoan2796@127.0.0.1:/home/ttoan2796/
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20193453.png
+![](images/Screenshot%202026-04-02%20193453.png)
 
 ---
 
-## Deliverable 15 – Extension Challenge 1: SSH + Create File
+## Extension Challenge 1: SSH + Create File
 ```bash
 ssh ttoan2796@127.0.0.1
 touch ~/Desktop/Hi_Tran_Quoc_Toan.txt
 ls ~/Desktop/
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20193945.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20194037.png
+![](images/Screenshot%202026-04-02%20193945.png)
+![](images/Screenshot%202026-04-02%20194037.png)
 
 ---
 
-## Deliverable 16 – Extension Challenge 2: gedit over SSH
+## Extension Challenge 2: gedit over SSH
 ```bash
 gedit
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20194105.png
+![](images/Screenshot%202026-04-02%20194105.png)
+
+```
 
 **Note:** gedit failed because SSH sessions do not forward the graphical display (X11) by default. GUI applications cannot be launched over a standard SSH connection without X11 forwarding enabled.
 
 ---
 
-## Deliverable 17 – Extension Challenge 3: SCP Directory Transfer
+## Extension Challenge 3: SCP Directory Transfer
 ```bash
 scp -r books/ ttoan2796@127.0.0.1:/home/ttoan2796/Desktop/
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20194759.png
+![](images/Screenshot%202026-04-02%20194759.png)
 
 ---
 
-## Deliverable 18 – Extension Challenge 4: 10 Books Compressed & Transferred
+## Extension Challenge 4: 10 Books Compressed & Transferred
 ```bash
 cd ~/books
 wget https://www.gutenberg.org/files/84/84-0.txt
@@ -164,9 +163,9 @@ bzip2 books10.tar
 ls -la books10.tar.bz2
 scp books10.tar.bz2 ttoan2796@127.0.0.1:/home/ttoan2796/Desktop/
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20195301.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20195316.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-1b/images/Screenshot%202026-04-02%20195438.png
+![](images/Screenshot%202026-04-02%20195301.png)
+![](images/Screenshot%202026-04-02%20195316.png)
+![](images/Screenshot%202026-04-02%20195438.png)
 
 
 ---
