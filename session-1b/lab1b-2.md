@@ -1,65 +1,68 @@
 # Session 1b-2 – Linux File Permissions and Group Access Control
 
-**Name:** Tran Quoc Toan  
-**Date:** 02 April 2026  
-**Environment:** Ubuntu 24.04.4 LTS on VirtualBox
 
 ---
 
-## Deliverable 1 – Three Users Created
+## Three Users Created
 ```bash
 sudo adduser alice
 sudo adduser bob
 sudo adduser mallory
 grep -E "alice|bob|mallory" /etc/passwd
 ```
-📸 *[Insert screenshot: user creation and /etc/passwd output]*
+![](images/Screenshot%202026-04-02%20213508.png)
+![](images/Screenshot%202026-04-02%20213515.png)
+![](images/Screenshot%202026-04-02%20213540.png)
+![](images/Screenshot%202026-04-02%20210325.png)
+
 
 ---
 
-## Deliverable 2 – Group Created and Configured
+## Group Created and Configured
 ```bash
 sudo groupadd sharedgroup
 sudo usermod -aG sharedgroup alice
 sudo usermod -aG sharedgroup bob
 grep sharedgroup /etc/group
 ```
-📸 *[Insert screenshot: /etc/group showing alice and bob in sharedgroup]*
+
+![](images/Screenshot%202026-04-02%20210507.png)
 
 ---
 
-## Deliverable 3 – Shared Directory Created
+## Shared Directory Created
 ```bash
 sudo mkdir /home/shared
 sudo chown root:sharedgroup /home/shared
 sudo chgrp sharedgroup /home/shared
 ls -l /home/
 ```
-📸 *[Insert screenshot: ls -l /home/ showing shared directory]*
+![](images/Screenshot%202026-04-02%20210622.png)
 
 ---
 
-## Deliverable 4 – Ten Files Created in Shared Folder
+## Ten Files Created in Shared Folder
 ```bash
 sudo touch /home/shared/file{1..10}
 sudo ls -l /home/shared/
 ```
-📸 *[Insert screenshot: ls -l showing 10 files]*
+![](images/Screenshot%202026-04-02%20210726.png)
 
 ---
 
-## Deliverable 5 & 7 – Permissions Assigned with Recursive Flag
+## Permissions Assigned with Recursive Flag
 ```bash
 sudo chgrp -R sharedgroup /home/shared
 sudo chmod -R 770 /home/shared
 sudo chmod 750 /home/shared/file{1..10}
 sudo ls -l /home/shared/
 ```
-📸 *[Insert screenshot: ls -l showing -rwxr-x--- permissions]*
+![](images/Screenshot%202026-04-02%20211437.png)
+
 
 ---
 
-## Deliverable 6 – Access Verified as Each User
+## Access Verified as Each User
 
 ### Alice
 ```bash
@@ -68,7 +71,8 @@ whoami
 ls -l /home/shared
 exit
 ```
-📸 *[Insert screenshot: alice whoami and ls -l output]*
+![](images/Screenshot%202026-04-02%20212002.png)
+
 
 ### Bob
 ```bash
@@ -77,8 +81,9 @@ whoami
 ls -l /home/shared
 exit
 ```
-📸 *[Insert screenshot: bob whoami and ls -l output]*
+![](images/Screenshot%202026-04-02%20212337.png)
 
+```
 ### Mallory
 ```bash
 su - mallory
@@ -86,35 +91,30 @@ whoami
 ls -l /home/shared
 exit
 ```
-📸 *[Insert screenshot: mallory whoami and Permission denied]*
+![](images/Screenshot%202026-04-02%20212254.png)
 
 ---
 
-## Deliverable 8 – Mallory Added to Sudoers
+## Mallory Added to Sudoers & Sudo Access Tested for Mallory
 ```bash
 sudo usermod -aG sudo mallory
 groups mallory
-```
-📸 *[Insert screenshot: groups mallory showing sudo group]*
-
----
-
-## Deliverable 9 – Sudo Access Tested for Mallory
-```bash
 su - mallory
 sudo ls /root
+
+
 ```
-📸 *[Insert screenshot: mallory successfully running sudo ls /root]*
+![](images/Screenshot%202026-04-02%20212827.png)
 
 ---
 
-## Deliverable 10 – Folder Clean-Up
+## Folder Clean-Up
 ```bash
 exit
 sudo rm -r /home/shared
 ls /home/
 ```
-📸 *[Insert screenshot: ls /home/ showing shared folder removed]*
+![](images/Screenshot%202026-04-02%20212937.png)
 
 ---
 
