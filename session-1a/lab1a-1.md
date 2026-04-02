@@ -1,10 +1,17 @@
 1a-1 Virtualisation & Linux Setup
+
 Setup Instructions
+
 Install VirtualBox or another virtualization tool.
+
 Download an Ubuntu ISO (Lubuntu or regular Ubuntu).
+
 Configure a new VM in VirtualBox with at least 2048 MB of memory.
+
 Boot the VM using the downloaded ISO and install Ubuntu.
+
 Configure network settings to allow bridged or NAT internet access.
+
 Reboot and confirm successful setup.
 
 
