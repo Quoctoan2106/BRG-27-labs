@@ -277,6 +277,58 @@ sudo apt install vlc
 
 ---
 
+# Part 7: Compiling from Source
+---
+
+## Step 1 – Install Build Tools
+```bash
+sudo apt install build-essential
+```
+📸 *[Insert screenshot]*
+
+---
+
+## Step 2 – Write hello_world.c
+```bash
+nano hello_world.c
+```
+```c
+#include 
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+```
+📸 *[Insert screenshot: nano editor open with hello_world.c]*
+
+---
+
+## Step 3 – Compile with GCC
+```bash
+gcc hello_world.c -o hello_world_executable
+```
+📸 *[Insert screenshot: gcc compilation]*
+
+---
+
+## Step 4 – Run the Executable
+```bash
+./hello_world_executable
+```
+📸 *[Insert screenshot: Hello, World! output]*
+
+---
+
+## Step 5 – Compare Source and Compiled File
+```bash
+less hello_world.c
+less hello_world_executable
+```
+📸 *[Insert screenshot: less hello_world.c - readable source]*
+📸 *[Insert screenshot: less hello_world_executable - binary content]*
+
+---
+
 ## Reflection Questions
 
 ### Which file editors are best for remote access and why?
