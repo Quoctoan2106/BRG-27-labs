@@ -8,7 +8,6 @@ Configure network settings to allow bridged or NAT internet access.
 Reboot and confirm successful setup.
 
 
-
 #Reflection Questions
 1. WhatWhat challenges did youyou encounter duringduring the virtual machinemachine setup?
 
