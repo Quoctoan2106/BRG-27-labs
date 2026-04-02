@@ -284,7 +284,7 @@ sudo apt install vlc
 ```bash
 sudo apt install build-essential
 ```
-📸 *[Insert screenshot]*
+![Part 7 - sudo apt install build-essential](images/Screenshot%202026-04-02%20184129.png)
 
 ---
 
@@ -299,7 +299,9 @@ int main() {
     return 0;
 }
 ```
-📸 *[Insert screenshot: nano editor open with hello_world.c]*
+![Part 7 - nano hello_world.c](images/Screenshot%202026-04-02%20184041.png
+)
+
 
 ---
 
@@ -307,7 +309,7 @@ int main() {
 ```bash
 gcc hello_world.c -o hello_world_executable
 ```
-📸 *[Insert screenshot: gcc compilation]*
+![Part 7 - gcc hello_world.c -o hello_world_executable](images/Screenshot%202026-04-02%20185239.png)
 
 ---
 
@@ -315,7 +317,8 @@ gcc hello_world.c -o hello_world_executable
 ```bash
 ./hello_world_executable
 ```
-📸 *[Insert screenshot: Hello, World! output]*
+![Part 7 - ./hello_world_executable](images/Screenshot%202026-04-02%20185336.png
+)
 
 ---
 
@@ -324,8 +327,8 @@ gcc hello_world.c -o hello_world_executable
 less hello_world.c
 less hello_world_executable
 ```
-📸 *[Insert screenshot: less hello_world.c - readable source]*
-📸 *[Insert screenshot: less hello_world_executable - binary content]*
+![Part 7 - less hello_world.c](images/Screenshot%202026-04-02%20185404.png)
+![Part 7 - less hello_world_executable](images/Screenshot%202026-04-02%20185421.png)
 
 ---
 
