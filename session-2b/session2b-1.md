@@ -11,7 +11,7 @@
 - Instance type: t3.micro (Free tier eligible)
 - Region: ap-southeast-2c
 
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screenshot%202026-04-03%20134009.png
+![](images/Screenshot%202026-04-03%20134009.png)
 
 ---
 
@@ -21,7 +21,7 @@ https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screensh
   - Port 22 (SSH) – Anywhere
   - Port 80 (HTTP) – Anywhere
 
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screenshot%202026-04-03%20141513.png
+![](images/Screenshot%202026-04-03%20141513.png)
 
 ---
 
@@ -29,7 +29,7 @@ https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screensh
 ```bash
 ssh -i "C:\Users\ADMIN\Downloads\brg-key.pem" ubuntu@15.134.229.105
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screenshot%202026-04-03%20134841.png
+![](images/Screenshot%202026-04-03%20134841.png)
 
 ---
 
@@ -38,11 +38,11 @@ https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screensh
 sudo apt update
 sudo apt install apache2 -y
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screenshot%202026-04-03%20135015.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screenshot%202026-04-03%20135028.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screenshot%202026-04-03%20135037.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screenshot%202026-04-03%20135053.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screenshot%202026-04-03%20135102.png
+![](images/Screenshot%202026-04-03%20135015.png)
+![](images/Screenshot%202026-04-03%20135028.png)
+![](images/Screenshot%202026-04-03%20135037.png)
+![](images/Screenshot%202026-04-03%20135053.png)
+![](images/Screenshot%202026-04-03%20135102.png)
 
 
 ---
@@ -60,9 +60,10 @@ sudo nano /var/www/html/index.html
   </body>
 </html>
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screenshot%202026-04-03%20135207.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screenshot%202026-04-03%20135350.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screenshot%202026-04-03%20135423.png
+![](images/Screenshot%202026-04-03%20135207.png)
+![](images/Screenshot%202026-04-03%20135350.png)
+![](images/Screenshot%202026-04-03%20135423.png)
+
 
 ---
 
@@ -71,7 +72,8 @@ https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screensh
 wget https://www.gutenberg.org/files/1342/1342-0.txt
 ls -la
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screenshot%202026-04-03%20135535.png
+![](images/Screenshot%202026-04-03%20135535.png)
+
 
 ---
 
@@ -80,14 +82,14 @@ https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screensh
 sudo cp 1342-0.txt /var/www/html/
 ls -l /var/www/html/
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screenshot%202026-04-03%20135720.png
+![](images/Screenshot%202026-04-03%20135720.png)
 
 ---
 
 ## File Accessible via Browser
 - Accessed at: `http://15.134.229.105/1342-0.txt`
 
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screenshot%202026-04-03%20135801.png
+![](images/Screenshot%202026-04-03%20135801.png)
 
 ---
 
@@ -95,14 +97,15 @@ https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screensh
 ```html
 <a href="1342-0.txt">Click here to download Pride and Prejudice</a>
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screenshot%202026-04-03%20140032.png
+![](images/Screenshot%202026-04-03%20140032.png)
 
 ---
 
 ## Budget Monitoring Enabled
 - Created Zero Spend Budget alert in AWS Billing Dashboard
 
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-2b/images/Screenshot%202026-04-03%20140423.png
+![](images/Screenshot%202026-04-03%20140423.png)
+
 
 ---
 
