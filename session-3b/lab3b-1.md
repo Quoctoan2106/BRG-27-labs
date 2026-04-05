@@ -103,7 +103,6 @@ now=$(date +"%d_%m_%y")
 cp -R /home/ubuntu/Documents/* /home/ubuntu/backup/
 zip -r $now.zip /home/ubuntu/backup/*
 cp $now.zip /home/ubuntu/
-scp -i /home/ubuntu/brg-key.pem $now.zip ubuntu@3.26.96.241:/home/ubuntu/
 ```
 ![](images/Screenshot%202026-04-05%20153540.png)
 
