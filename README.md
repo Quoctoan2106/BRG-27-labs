@@ -8,5 +8,5 @@ Student Name : TRAN QUOC TOAN
 Kaplan Student ID : CT0383516
 ```
 ```
-Murdoch Student ID : 369055212
+Murdoch Student ID : 36055212
 ```
