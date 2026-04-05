@@ -118,7 +118,7 @@ exit 0
 sudo chmod +x /etc/rc.local
 ```
 ![](images/Screenshot%202026-04-05%20153727.png)
-
+![](images/Screenshot%202026-04-05%20163428.png)
 
 ---
 
