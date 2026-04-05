@@ -1,0 +1,65 @@
+# Additional Server Services: Docker
+  
+**Server:** Ubuntu (VirtualBox)
+
+---
+
+## System Preparation
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y curl wget gnupg lsb-release ca-certificates
+```
+📸 *[Insert screenshot: apt update && apt upgrade output]*
+
+---
+
+## Deliverable 2 – Remove Old Docker Versions
+```bash
+sudo apt remove -y docker docker-engine docker.io containerd runc
+```
+📸 *[Insert screenshot: Terminal output showing old Docker packages removed or not installed]*
+
+---
+
+## Deliverable 3 – Docker Installed
+```bash
+sudo apt install -y docker.io
+```
+📸 *[Insert screenshot: apt install docker.io output]*
+
+---
+
+## Deliverable 4 – Docker Service Started & Enabled
+```bash
+sudo systemctl start docker
+sudo systemctl enable docker
+```
+📸 *[Insert screenshot: systemctl start and enable output]*
+
+---
+
+## Deliverable 5 – Docker Installation Verified
+```bash
+docker --version
+sudo docker run hello-world
+```
+- Docker version confirmed
+- `Hello from Docker!` message received — installation working correctly
+
+📸 *[Insert screenshot: docker --version and hello-world output]*
+
+---
+
+
+
+## Summary
+
+| Step | Command | Status |
+|------|---------|--------|
+| Remove old Docker | `sudo apt remove docker docker.io` | ✅ |
+| Install Docker | `sudo apt install docker.io` | ✅ |
+| Start service | `sudo systemctl start docker` | ✅ |
+| Enable on boot | `sudo systemctl enable docker` | ✅ |
+| Verify | `sudo docker run hello-world` | ✅ |
+
+---
