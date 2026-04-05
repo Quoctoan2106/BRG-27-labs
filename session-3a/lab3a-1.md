@@ -71,8 +71,10 @@ sudo apt install certbot python3-certbot-apache -y
 ```bash
 sudo certbot --apache -d brgisea-toan.duckdns.org
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3a/images/Screenshot%202026-04-05%20115738.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3a/images/Screenshot%202026-04-05%20115749.png
+![](images/Screenshot%202026-04-05%20115738.png)
+![](images/Screenshot%202026-04-05%20115749.png
+)
+
 
 ---
 
@@ -81,7 +83,8 @@ https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3a/images/Screensh
 ```bash
 sudo certbot renew --dry-run
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3a/images/Screenshot%202026-04-05%20122127.png
+![](images/Screenshot%202026-04-05%20122127.png
+)
 
 ---
 
