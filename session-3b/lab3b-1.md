@@ -75,7 +75,7 @@ ls -lh /home/ubuntu/*.zip
 
 ## SCP to Cloud Working
 ```bash
-scp -i /home/ubuntu/brg-key.pem $now.zip ubuntu@3.26.96.241:/home/ubuntu/
+ scp -i "C:\Users\ADMIN\Downloads\brg-key.pem" "C:\Users\ADMIN\Downloads\brg-key.pem" ubuntu@3.26.96.241:/home/ubuntu/
 ```
 ![](images/Screenshot%202026-04-05%20153115.png
 )
