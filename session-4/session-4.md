@@ -1,6 +1,8 @@
 # Additional Server Services: Docker
   
 **Server:** Ubuntu (VirtualBox)
+Choose Docker
+Install Docker
 
 ---
 
