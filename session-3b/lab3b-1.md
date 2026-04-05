@@ -56,9 +56,9 @@ ls -lh /home/ubuntu/*.zip
 ```bash
 sudo nano /etc/crontab
 # Added line:
-27 * * * *   ubuntu   /usr/bin/testscript
+24 * * * *   ubuntu   /usr/bin/testscript
 ```
-![](images/Screenshot%202026-04-05%20160600.png
+![](images/images/Screenshot%202026-04-05%20162548.png
 )
 
 ---
