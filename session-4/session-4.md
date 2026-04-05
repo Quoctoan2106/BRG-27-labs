@@ -13,17 +13,12 @@ sudo apt install -y curl wget gnupg lsb-release ca-certificates
 ```
 ![](images/Screenshot%202026-04-05%20172332.png)
 ![](images/Screenshot%202026-04-05%20172344.png)
-
----
-
-## Deliverable 2 – Remove Old Docker Versions
-```bash
-sudo apt remove -y docker docker-engine docker.io containerd runc
-```
 ![](images/Screenshot%202026-04-05%20172408.png)
+
 ---
 
-## Deliverable 3 – Docker Installed
+
+## Docker Installed
 ```bash
 sudo apt install -y docker.io
 ```
@@ -33,15 +28,16 @@ sudo apt install -y docker.io
 
 ---
 
-## Deliverable 4 – Docker Service Started & Enabled
+## Docker Service Started & Enabled
 ```bash
 sudo systemctl start docker
 sudo systemctl enable docker
 ```
 ![](images/Screenshot%202026-04-05%20172507.png)
+
 ---
 
-## Deliverable 5 – Docker Installation Verified
+## Docker Installation Verified
 ```bash
 docker --version
 sudo docker run hello-world
@@ -50,6 +46,7 @@ sudo docker run hello-world
 - `Hello from Docker!` message received — installation working correctly
 
 ![](images/Screenshot%202026-04-05%20172553.png)
+
 ---
 
 
