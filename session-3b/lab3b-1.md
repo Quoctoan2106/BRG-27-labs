@@ -58,7 +58,7 @@ sudo nano /etc/crontab
 # Added line:
 24 * * * *   ubuntu   /usr/bin/testscript
 ```
-![](images/images/Screenshot%202026-04-05%20162548.png)
+![](images/Screenshot%202026-04-05%20162548.png)
 
 ---
 
