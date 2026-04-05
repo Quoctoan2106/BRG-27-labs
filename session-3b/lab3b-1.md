@@ -4,7 +4,7 @@
 
 ---
 
-## Deliverable 2 – Test Files & Directories Created
+## Test Files & Directories Created
 ```bash
 mkdir -p /home/ubuntu/Documents/folder1
 mkdir -p /home/ubuntu/Documents/folder2
@@ -13,11 +13,11 @@ echo "File test 1" > /home/ubuntu/Documents/file1.txt
 echo "File test 2" > /home/ubuntu/Documents/folder1/file2.txt
 ls -R /home/ubuntu/Documents/
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3b/images/Screenshot%202026-04-05%20151124.png
+![](images/Screenshot%202026-04-05%20151124.png)
 
 ---
 
-## Deliverable 3 – Basic Script Working (testscript)
+## Basic Script Working (testscript)
 ```bash
 #!/bin/bash
 now=$(date +"%d_%m_%y")
@@ -26,72 +26,74 @@ zip -r $now.zip /home/ubuntu/backup/*
 cp $now.zip /home/ubuntu/
 scp -i /home/ubuntu/brg-key.pem $now.zip ubuntu@3.26.96.241:/home/ubuntu/
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3b/images/Screenshot%202026-04-05%20151423.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3b/images/Screenshot%202026-04-05%20154911.png
+![](images/Screenshot%202026-04-05%20151423.png)
+![](images/Screenshot%202026-04-05%20154911.png)
 
 ---
 
-## Deliverable 4 – Script Moved to /usr/bin and Tested
+## Script Moved to /usr/bin and Tested
 ```bash
 sudo mv /home/ubuntu/testscript /usr/bin/testscript
 sudo chown root:root /usr/bin/testscript
 testscript
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3b/images/Screenshot%202026-04-05%20160712.png
+![](images/Screenshot%202026-04-05%20160712.png)
 
 ---
 
-## Deliverable 5 – ZIP Archive with Date Filename
+## ZIP Archive with Date Filename
 ```bash
 ls -lh /home/ubuntu/*.zip
 ```
 - Filename format: `dd_mm_yy.zip` (e.g. `05_04_26.zip`)
 - Created using: `now=$(date +"%d_%m_%y")`
 
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3b/images/Screenshot%202026-04-05%20151823.png
+![](images/Screenshot%202026-04-05%20151823.png)
 
 ---
 
-## Deliverable 6 – Cronjob Set Up for Hourly Backup
+## Cronjob Set Up for Hourly Backup
 ```bash
 sudo nano /etc/crontab
 # Added line:
 27 * * * *   ubuntu   /usr/bin/testscript
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3b/images/Screenshot%202026-04-05%20160600.png
+![](images/Screenshot%202026-04-05%20160600.png
+)
 
 ---
 
-## Deliverable 7 – Successful Cron Execution Verified
+## Successful Cron Execution Verified
 ```bash
 ls -lh /home/ubuntu/*.zip
 ```
 - ZIP file timestamp updated automatically by cron
+  
+![](images/Screenshot%202026-04-05%20152523.png)
 
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3b/images/Screenshot%202026-04-05%20152523.png
 
 ---
 
-## Deliverable 8 – SCP to Cloud Working
+## SCP to Cloud Working
 ```bash
 scp -i /home/ubuntu/brg-key.pem $now.zip ubuntu@3.26.96.241:/home/ubuntu/
 ```
-
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3b/images/Screenshot%202026-04-05%20153115.png
+![](images/Screenshot%202026-04-05%20153115.png
+)
 
 ---
 
-## Deliverable 9 – SSH Certificate Accepted & File on Cloud Verified
+## SSH Certificate Accepted & File on Cloud Verified
 ```bash
 ssh -i /home/ubuntu/brg-key.pem ubuntu@3.26.96.241 "ls ~/05_04_26.zip"
 ```
 - Output: `/home/ubuntu/05_04_26.zip`
 
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3b/images/Screenshot%202026-04-05%20153509.png
+![](images/Screenshot%202026-04-05%20153509.png)
 
 ---
 
-## Deliverable 10 – Final Script Submitted
+## Final Script Submitted
 ```bash
 cat /usr/bin/testscript
 ```
@@ -103,11 +105,11 @@ zip -r $now.zip /home/ubuntu/backup/*
 cp $now.zip /home/ubuntu/
 scp -i /home/ubuntu/brg-key.pem $now.zip ubuntu@3.26.96.241:/home/ubuntu/
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3b/images/Screenshot%202026-04-05%20153540.png
+![](images/Screenshot%202026-04-05%20153540.png)
 
 ---
 
-## Deliverable 11 – Challenge 1: Boot-Time Script
+## Challenge 1: Boot-Time Script
 ```bash
 sudo nano /etc/rc.local
 # Contents:
@@ -117,12 +119,12 @@ exit 0
 
 sudo chmod +x /etc/rc.local
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3b/images/Screenshot%202026-04-05%20153727.png
+![](images/Screenshot%202026-04-05%20153727.png)
 
 
 ---
 
-## Deliverable 12 – Challenge 2: figlet & neofetch MOTD
+## Challenge 2: figlet & neofetch MOTD
 ```bash
 sudo apt install figlet neofetch -y
 sudo nano /etc/profile.d/motd.sh
@@ -134,10 +136,12 @@ neofetch
 sudo chmod +x /etc/profile.d/motd.sh
 bash /etc/profile.d/motd.sh
 ```
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3b/images/Screenshot%202026-04-05%20155814.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3b/images/Screenshot%202026-04-05%20155826.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3b/images/Screenshot%202026-04-05%20153938.png
-https://github.com/Quoctoan2106/BRG-27-labs/blob/main/session-3b/images/Screenshot%202026-04-05%20154018.png
+![](images/Screenshot%202026-04-05%20155814.png)
+![](images/Screenshot%202026-04-05%20155826.png)
+![](images/Screenshot%202026-04-05%20153938.png)
+![](images/Screenshot%202026-04-05%20154018.png
+)
+
 
 ---
 
