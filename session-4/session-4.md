@@ -55,7 +55,6 @@ sudo docker run hello-world
 
 | Step | Command | Status |
 |------|---------|--------|
-| Remove old Docker | `sudo apt remove docker docker.io` | ✅ |
 | Install Docker | `sudo apt install docker.io` | ✅ |
 | Start service | `sudo systemctl start docker` | ✅ |
 | Enable on boot | `sudo systemctl enable docker` | ✅ |
